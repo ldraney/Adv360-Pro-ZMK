@@ -1,3 +1,9 @@
+macro_pizza: macro_pizza{
+compatible = "zmk,behavior-macro";
+label = "macro_pizza";
+#binding-cells = <0>;
+bindings = <&kp A>, <&kp S>, <&kp D>, <&kp F>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
